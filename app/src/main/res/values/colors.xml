@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bounding_box_color">#4A9EFF</color>
+    <color name="sight_blue">#4A9EFF</color>
+    <color name="sight_dark">#1A1A2E</color>
+    <color name="sight_card_dark">#2D2D42</color>
+    <color name="sight_card_light">#EEF6FF</color>
+    <color name="danger_red">#FF3B3B</color>
+</resources>
