@@ -101,8 +101,3 @@ This project is released under the **MIT License** — see [LICENSE](LICENSE). C
 - [TensorFlow Lite](https://github.com/tensorflow/tensorflow) and **TensorFlow Lite Support** (Apache 2.0).
 - **AndroidX** (CameraX, AppCompat, etc.) — see Gradle files for versions.
 
-## Acknowledgments
-
-Original reference workflow and upstream ideas are aligned with community YOLOv8 + TFLite Android examples (e.g. [surendramaran/YOLOv8-TfLite-Object-Detector](https://github.com/surendramaran/YOLOv8-TfLite-Object-Detector)). Replace the clone URL in your fork’s README if you maintain a separate upstream.
-
-
