@@ -63,7 +63,7 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
             val bottom = it.y2 * height
 
             val isDangerous = it.clsName == "no-helmet" || it.clsName == "no-vest"
-            val boxColor = if (isDangerous) Color.parseColor("#FF3B3B") else Color.parseColor("#4A9EFF")
+            val boxColor = if (isDangerous) Color.parseColor("#FF3B3B") else Color.BLACK
             boxPaint.color = boxColor
 
             // Draw rounded bounding box
