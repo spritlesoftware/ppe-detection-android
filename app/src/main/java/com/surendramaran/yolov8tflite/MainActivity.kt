@@ -51,6 +51,8 @@ class MainActivity : AppCompatActivity(), Detector.DetectorListener {
         detector = Detector(baseContext, MODEL_PATH, LABELS_PATH, this)
         detector.setup()
 
+        binding.cameraContainer.clipToOutline = true
+
         if (allPermissionsGranted()) {
             startCamera()
         } else {
