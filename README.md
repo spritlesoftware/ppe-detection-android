@@ -6,6 +6,13 @@ Android app that runs **YOLOv8** (or compatible YOLO-style) object detection **o
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+##  Examples
+
+<p align="center">
+  <img src="https://github.com/spritlesoftware/ppe-detection-android/blob/main/assets/image-1.jpg" width="45%" />
+  <img src="https://github.com/spritlesoftware/ppe-detection-android/blob/main/assets/iamge-2.jpg" width="45%" />
+</p>
+
 ## Features
 
 - Real-time camera preview with `ImageAnalysis` (RGBA frames fed to TFLite).
@@ -22,21 +29,9 @@ Android app that runs **YOLOv8** (or compatible YOLO-style) object detection **o
  
 ## Architecture
  
-```
-┌─────────────────────────────────────────────┐
-│           Android Application               │
-├─────────────────────────────────────────────┤
-│  CameraX Preview & Analysis Pipeline        │
-│    ↓                                         │
-│  Frame Buffer → Image Preprocessing         │
-│    ↓                                         │
-│  TFLite Interpreter (YOLOv8n)               │
-│    ↓                                         │
-│  Bounding Box Post-Processing (NMS)         │
-│    ↓                                         │
-│  UI Overlay Renderer + Alerts               │
-└─────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="https://github.com/spritlesoftware/ppe-detection-android/blob/main/assets/ppe-arch.png" width="45%" />
+</p>
 
 ## Quick start
 
