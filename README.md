@@ -86,14 +86,14 @@ This project is released under the **MIT License** — see [LICENSE](LICENSE). C
 
 ## Links
  
-- **Blog Post:** [Open Sourcing Our PPE Detection App](#)
+- **Blog Post:** [Open Sourcing Our PPE Detection App](https://www.spritle.com/blog/open-sourcing-our-real-time-ppe-detection-mobile-app/)
 - **Demo Video:** [YouTube](#)
  
 ## Contact
  
 - **Issues:** [GitHub Issues](https://github.com/spritle-software/ppe-detection-app/issues)
 - **Email:** info@spritle.com
-- **Twitter:** [@SpritlSoftware](https://twitter.com/SpritlSoftware)
+- **Twitter:** [@SpritlSoftware](https://twitter.com/spritlesoftware)
  
 
 ## Third-party libraries
